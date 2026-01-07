@@ -7,33 +7,36 @@
 
 :root {
     /* Dark Premium Photography Theme */
-    --primary-color: #1a1a1a;
-    --secondary-color: #d4af37;
-    --accent-color: #c9a961;
-    --whatsapp-color: #25D366;
-    --text-dark: #1a1a1a;
-    --text-light: #b8b8b8;
-    --text-white: #ffffff;
-    --bg-dark: #0f0f0f;
-    --bg-dark-secondary: #1a1a1a;
-    --bg-dark-card: #242424;
-    --bg-light-dark: #2a2a2a;
-    --shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.6);
-    --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.3);
-    --transition: all 0.3s ease;
+    :root {
+        --primary-color: #c2188b;   /* Pink / Magenta (logo reference) */
+        --bg-color: #0f0f0f;        /* Dark background */
+        --text-color: #ffffff;     /* White text */
+      }
+      
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    line-height: 1.6;
-    color: var(--text-white);
-    background: var(--bg-dark);
-    overflow-x: hidden;
+bbody {
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  p, span, li, a {
+    color: var(--text-color);
+  }
+  h1, h2, h3, h4 {
+    color: var(--primary-color);
+  }
+  
+  button, .btn, .call-btn {
+    background: var(--primary-color);
+    color: #ffffff;
+  }
+  
+  
 }
 
 .container {
@@ -43,10 +46,11 @@ body {
     width: 100%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+.logo img {
+    height: 60px;
+    width: auto;
+  }
+  
 }
 
 svg {
