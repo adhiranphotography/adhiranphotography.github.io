@@ -9,8 +9,8 @@
     /* Dark Premium Photography Theme */
     :root {
         --primary-color: #c2188b;   /* Pink / Magenta (logo reference) */
-        --bg-color: #0f0f0f;        /* Dark background */
-        --text-color: #ffffff;     /* White text */
+        --bg-color: hsl(0, 0%, 100%);        /* Dark background */
+        --text-color: #ad098a;     /* White text */
       }
       
 }
