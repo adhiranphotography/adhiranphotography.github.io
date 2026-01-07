@@ -78,23 +78,7 @@
     font-weight: bold;
   }
   
-  /* GALLERY */
-  .gallery {
-    padding: 60px 20px;
-    text-align: center;
-  }
   
-  .gallery-grid {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-  }
-  
-  .gallery-grid img {
-    width: 100%;
-    border-radius: 10px;
-  }
   
   /* CONTACT */
   .contact {
@@ -172,5 +156,23 @@
     .hero h1 {
       font-size: 30px;
     }
-  }
+    .services {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    
+    .services h2 {
+      margin-bottom: 30px;
+    }
+    
+    .service-item {
+      max-width: 700px;
+      margin: 15px auto;
+      padding: 15px 20px;
+      border: 1px solid #f0c1dc;
+      border-radius: 10px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    }
   
